@@ -1,0 +1,13 @@
+class Dataset:
+    def __init__(self):
+        raise NotImplementedError()
+    def check_exist_dataset(self):
+        raise NotImplementedError()
+    def download_dataset(self):
+        raise NotImplementedError()
+    def read_files(self):
+        raise NotImplementedError()
+    def build_tf_data_pipeline(self):
+        raise NotImplementedError()
+    def load(self):
+        raise NotImplementedError()

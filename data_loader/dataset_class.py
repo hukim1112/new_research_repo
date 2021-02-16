@@ -7,7 +7,11 @@ class Dataset:
         raise NotImplementedError()
     def read_files(self):
         raise NotImplementedError()
-    def build_tf_data_pipeline(self):
+    def build_classification_pipeline(self):
         raise NotImplementedError()
+    def build_distortion_image_pair(self):
+        raise NotImplementedError
+    def build_categorical_image_pair(self):
+        raise NotImplementedError
     def load(self):
         raise NotImplementedError()
